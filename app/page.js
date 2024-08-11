@@ -105,7 +105,7 @@ export default function Home() {
             color: 'white',
           }}
         >
-          <Typography>Hi there! I'm your Personal Health Assistant, here to help you stay on top of your health and wellness. Whether you need a reminder to take your meds, some tips for a healthier lifestyle, or just someone to track your progress, I've got you covered. Let’s work together to make your wellness journey as smooth and successful as possible!</Typography>
+          <Typography>Hi there! I&apos;m your Personal Health Assistant, here to help you stay on top of your health and wellness. Whether you need a reminder to take your meds, some tips for a healthier lifestyle, or just someone to track your progress, I&apos;ve got you covered. Let&apos;s work together to make your wellness journey as smooth and successful as possible!</Typography>
         </Box>
         
         {/* Render chat history */}
