@@ -139,7 +139,7 @@ export default function Home() {
         }}
       >
         <TextField 
-          placeholder='Message HUIT Bot' 
+          placeholder='Message Personal Health Assistant Bot' 
           value={message}
           onChange={(e) => setMessage(e.target.value)} 
           onKeyDown={handleKeyDown}
