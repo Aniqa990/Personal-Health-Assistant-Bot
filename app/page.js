@@ -1,6 +1,7 @@
 "use client";
 import { Box, Stack, TextField, Button, Typography } from "@mui/material";
 import { useState, useRef, useEffect } from "react";
+import ReactMarkdown from 'react-markdown';
 import SendIcon from '@mui/icons-material/Send';
 
 export default function Home() {
@@ -121,7 +122,7 @@ export default function Home() {
               maxWidth: '70%'
             }}
           >
-            <Typography>{textObject.parts[0].text}</Typography>
+            <ReactMarkdown>{textObject.parts[0].text}</ReactMarkdown>
           </Box>
         ))}
       </Box>
